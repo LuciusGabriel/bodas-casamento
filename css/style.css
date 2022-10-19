@@ -1,0 +1,103 @@
+/*IMPORTA FONTS EXTERNAS*/
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+
+/*
+Paleta de Cores:
+#ffcdb2
+#ffb4a2
+#e5989b
+#b5838d
+#6d6875
+*/
+
+/*RESET*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*Geral*/
+body{
+    color: #FFF;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/*Cabeçalho/Topo */
+header{
+    padding-top: 1em;
+    text-align: center;
+    color: #6d6875;
+}
+
+header h1{
+    font-family: 'Great Vibes', cursive;
+    font-size: 5em;
+    font-weight: 100;
+}
+
+/*Navegação/Menu*/
+nav{
+    text-align: center;
+    background-color: #ffcdb2;
+    padding: 10px 0 10px 0;
+}
+nav ul{
+    list-style: none;
+}
+nav li{
+    display: inline;
+    margin: 0 0 0 50px;
+}
+nav li a{
+    font-size: 1.2em;
+    text-decoration: none;
+    color: #b5838d;
+}
+nav li a:hover{
+    color: #e5989b;
+}
+
+main{
+    width: 80vw;
+    margin: 0 auto;
+    padding: 10px 0 0 0;
+    color: #000;
+}
+main h1{
+    font-family: 'Great Vibes', cursive;
+    font-size: 2em;
+    text-align: center;
+    color: #000;
+    font-weight: 100;
+}
+
+/*Section Bodas*/
+.wedding{
+    width: 30vw;
+    height: auto;
+    border-radius: 10px;
+    margin: 0 0 0 10px;
+}
+
+#article-bodas{
+    display: flex;
+    align-items: top;
+}
+
+article p{
+    font-size: 1.1rem;
+    text-align: justify;
+    margin: 0 10px 0 10px;
+}
+
+
+/*Section Calculadora*/
+#contador p{
+    text-align: center;
+}
+#data-casamento{
+    width: 200px;
+    height: 50px;
+    font-size: 2em;
+}
