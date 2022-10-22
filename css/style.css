@@ -35,6 +35,13 @@ header h1{
     font-size: 5em;
     font-weight: 100;
 }
+header a{
+    text-decoration: none;
+    color: #6d6875;
+}
+header a:hover{
+    color: #b5838d
+}
 
 /*Navegação/Menu*/
 nav{
@@ -66,7 +73,7 @@ main{
 }
 main h1{
     font-family: 'Great Vibes', cursive;
-    font-size: 2em;
+    font-size: 2.5em;
     text-align: center;
     color: #000;
     font-weight: 100;
@@ -93,11 +100,50 @@ article p{
 
 
 /*Section Calculadora*/
+#contador{
+    margin-top: 20px;
+    border-top: solid 2px #ffcdb2;
+    padding-top: 10px;
+}
 #contador p{
     text-align: center;
 }
-#data-casamento{
+
+#data{
     width: 200px;
     height: 50px;
     font-size: 2em;
+    border-radius: 5px;
+}
+.btn{
+    margin-top: 10px;
+    width: 200px;
+    height: 30px;
+    font-size: 18px;
+    background-color: #a85df8;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+}
+.imagem-bodas{
+    width: 300px;
+    border-radius: 50%;
+    text-align: center;
+}
+
+
+
+
+/*RODAPÉ */
+footer{
+    background-color: #e5989b;
+    color: #363636;
+    padding: 10px;
+    text-align: center;
+    margin-top: 50px;
+    font-style: italic;
+}
+footer a{
+    text-decoration: none;
+    color: #363636;
 }

@@ -9,19 +9,19 @@
 </head>
 <body>
         <header>
-            <h1>Bodas de Casamento</h1>
+            <h1><a href="#"> ~ Bodas de Casamento ~</a></h1>
         </header>
         <nav>
             <ul>
                 <li><a href="#">Home</a></li>
                 <li><a href="#bodas">Bodas</a></li>
-                <li><a href="#">Contato</a></li>
+                <li><a href="#calculadora">Calculadora</a></li>
             </ul>
         </nav>
 
     <main>
         <section id="bodas">
-            <h1>Origem das Bodas</h1>
+            <h1>~ Origem das Bodas ~</h1>
             <article id="article-bodas">
                 <picture>
                     <img src="img/wedding.jpg" alt="casamento" class="wedding">
@@ -34,21 +34,24 @@
         </section>
         <section id="contador">
             <div id="calculadora">
-            <h1>Calculadora de Bodas</h1>
-            <p>Vamos calcular em que bodas você está?</p>
+            <h1>~ Calculadora de Bodas ~</h1>
+            <p>Vamos calcular em que bodas vocês estão?</p>
+            <p>Ps: Nesta versão estamos calculando apenas os primeiros 12 meses.</p>
             <p>Insira a data de seu casamento:</p>
-            <p><input type="date" name="casamento" id="data-casamento" required></p>
-            <p><input type="button" value="Calcular" onclick="calcular()"></p>
+            <p><input type="date" name="casamento" id="data" required></p>
+            <p><input type="button" class="btn" value="Calcular" onclick="resultado()"></p>
             </div>
 
-            <div id="Resultado">
+            <div id="resultado">
 
             </div>
 
         </section>
 
     </main>
-
+    <footer>
+        <p> Desenvolvido por <a href="https://www.instagram.com/luciusgabriel/" target="_blank">Lucius Gabriel</a> - 2022</p>
+    </footer>
 
 
 
